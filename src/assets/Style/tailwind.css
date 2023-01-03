@@ -10,4 +10,20 @@
     hmtl {
         font-family: 'Poppins',sans-serif;
     }
+
+    .scrollbar::-webkit-scrollbar {
+        width: 15px;
+      }
+    
+    /* .scrollbar::-webkit-scrollbar-track {
+        background: #f7f4ed;
+    } */
+    
+    .scrollbar::-webkit-scrollbar-thumb {
+        background: gainsboro;
+    }
+    
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+        background: white;
+    }
 }

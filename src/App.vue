@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black h-screen text-gray-300">
+  <div class="bg-gray-800 h-screen text-gray-300 flex">
     <Sidebar />
     <RouterView />
   </div>
